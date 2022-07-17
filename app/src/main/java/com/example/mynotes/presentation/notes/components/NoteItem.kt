@@ -23,7 +23,7 @@ fun NoteItem(
 ) {
     Card(
         shape = RoundedCornerShape(16.dp),
-        backgroundColor =  Color(0xFF1E203B)
+        backgroundColor = Color(0xFF1E203B)
     ) {
         Row {
             Canvas(modifier = Modifier.size(30.dp), onDraw = {
